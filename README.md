@@ -5,7 +5,7 @@ A PL/SQL-based ETL process for mapping and reconciling data between two sources.
 The purpose of this ETL flow is to map data from two distinct systems, each with its own session close time, resulting in end-of-day unmatched data. This system reprocesses unmatched data by comparing it with data from the following day, allowing for a tolerance period. If records remain unmatched after this period, they are marked as conflict data.
 
 ## Structure
-![alt text](https://github.com/annguyen-git/onprem-sql-mapping-system/blob/main/Reconcilation_etl.jpg)
+![alt text](https://github.com/annguyen-git/onprem-sql-mapping-system/blob/main/Doisoat.jpg)
 
 ## Key Features
 - Tolerance Period for Data Reconciliation: Allows a specified number of days for data to match between systems.
