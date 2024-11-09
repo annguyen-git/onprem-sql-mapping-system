@@ -15,8 +15,3 @@ The purpose of this ETL flow is to map data from two distinct systems, each with
 ## Prerequisites
 - Oracle Database with PL/SQL support.
 - Permissions to run stored procedures and manage tables in the target database.
-
-## Usage
-- Initial Setup: Configure source and target tables in the database.
-- Run ETL Procedures: Execute the main PL/SQL procedures for data mapping and reconciliation.
-- Monitor Results: Review tables for matched, unmatched, and conflict data as output by the ETL process.
